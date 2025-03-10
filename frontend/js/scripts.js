@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
         loginForm.addEventListener('submit', function(event) {
             event.preventDefault();
             const formData = new FormData(loginForm);
-            fetch('https://<your-backend-url>.vercel.app/api/login', { // Atualize a URL aqui
+            fetch('https://cintiaproject-git-main-vitor-henriques-projects-81f90ab4.vercel.app/api/login', {
                 method: 'POST',
                 body: formData
             })
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
         paymentForm.addEventListener('submit', function(event) {
             event.preventDefault();
             const formData = new FormData(paymentForm);
-            fetch('https://<your-backend-url>.vercel.app/api/payments', { // Atualize a URL aqui
+            fetch('https://cintiaproject-git-main-vitor-henriques-projects-81f90ab4.vercel.app/api/payments', {
                 method: 'POST',
                 body: formData
             })
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
         adminForm.addEventListener('submit', function(event) {
             event.preventDefault();
             const formData = new FormData(adminForm);
-            fetch('https://<your-backend-url>.vercel.app/api/admins', { // Atualize a URL aqui
+            fetch('https://cintiaproject-git-main-vitor-henriques-projects-81f90ab4.vercel.app/api/admins', {
                 method: 'POST',
                 body: formData
             })
