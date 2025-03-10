@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo Cintia Maximus</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bem-vindo Cintia Maximus</h1>
+        <form id="loginForm">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Entrar</button>
+        </form>
+
+        <form id="adminForm" style="margin-top: 20px;">
+            <h2>Registrar Administrador</h2>
+            <label for="adminUsername">Usuário:</label>
+            <input type="text" id="adminUsername" name="username" required>
+            <label for="adminPassword">Senha:</label>
+            <input type="password" id="adminPassword" name="password" required>
+            <button type="submit">Registrar</button>
+        </form>
+
+        <div id="userActions" style="display: none;">
+            <h2>Ações do Usuário</h2>
+            <button id="addUserBtn">Adicionar Usuário</button>
+            <button id="searchAccountsBtn">Pesquisar Contas em Aberto</button>
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
