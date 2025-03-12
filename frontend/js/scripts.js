@@ -6,18 +6,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const addUserBtn = document.getElementById('addUserBtn');
     const searchAccountsBtn = document.getElementById('searchAccountsBtn');
 
-    // Pre-fill login form with provided credentials
-    if (loginForm) {
-        document.getElementById('username').value = 'viihenrique2.vh@gmail.com';
-        document.getElementById('password').value = 'M@to145236987';
-    }
-
     // Handle login form submission
     if (loginForm) {
         loginForm.addEventListener('submit', function(event) {
             event.preventDefault();
             const formData = new FormData(loginForm);
-            fetch('https://cintiaproject-git-main-vitor-henriques-projects-81f90ab4.vercel.app/api/login', {
+            fetch('https://cintiaproject-ja56-k9ycrxsxc-vitor-henriques-projects-81f90ab4.vercel.app/api/login', {
                 method: 'POST',
                 body: formData
             })
@@ -41,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
         paymentForm.addEventListener('submit', function(event) {
             event.preventDefault();
             const formData = new FormData(paymentForm);
-            fetch('https://cintiaproject-git-main-vitor-henriques-projects-81f90ab4.vercel.app/api/payments', {
+            fetch('https://cintiaproject-ja56-k9ycrxsxc-vitor-henriques-projects-81f90ab4.vercel.app/api/payments', {
                 method: 'POST',
                 body: formData
             })
@@ -63,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
         adminForm.addEventListener('submit', function(event) {
             event.preventDefault();
             const formData = new FormData(adminForm);
-            fetch('https://cintiaproject-git-main-vitor-henriques-projects-81f90ab4.vercel.app/api/admins', {
+            fetch('https://cintiaproject-ja56-k9ycrxsxc-vitor-henriques-projects-81f90ab4.vercel.app/api/admins', {
                 method: 'POST',
                 body: formData
             })
@@ -83,7 +77,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Handle add user button click
     if (addUserBtn) {
         addUserBtn.addEventListener('click', function() {
-            alert('Adicionar Usuário - Funcionalidade em desenvolvimento');
+            // Redirecionar para a página de controle do usuário sobre as vendas
+            window.location.href = 'user-control.html';
         });
     }
 
