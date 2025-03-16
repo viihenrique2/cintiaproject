@@ -1,0 +1,19 @@
+{
+  "name": "user-management-system",
+  "version": "1.0.0",
+  "description": "package.json",
+  "main": "y",
+  "scripts": {
+    "test": "y"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viihenrique2/cintiaproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viihenrique2/cintiaproject/issues"
+  },
+  "homepage": "https://github.com/viihenrique2/cintiaproject#readme"
+}
