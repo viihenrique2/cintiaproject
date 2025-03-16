@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/viihenrique2/cintiaproject/issues"
   },
-  "homepage": "https://github.com/viihenrique2/cintiaproject#readme"
+  "homepage": "https://github.com/viihenrique2/cintiaproject#readme",
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.4"
+  }
 }
